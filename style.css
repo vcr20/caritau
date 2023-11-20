@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-image: url('walpaperiis.jpg'); /* Ganti 'background.jpg' dengan nama berkas gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #fff; /* Ganti warna teks agar sesuai dengan warna latar belakang */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Tambahkan bayangan teks agar lebih terbaca */
+}
+
+p {
+    color: #fff; /* Ganti warna teks agar sesuai dengan warna latar belakang */
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+    overflow: hidden;
+}
+
+#target {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    cursor: pointer;
+}
